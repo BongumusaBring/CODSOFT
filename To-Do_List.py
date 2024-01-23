@@ -17,8 +17,9 @@ def show_todo_list():
             if not tasks:
                 print("To-Do List is empty.")
             else:
+                print("Tasks")
                 for idx, task in enumerate(tasks, start=1):
-                    print("Tasks")
+                    
                     print(f"{idx}. {task.strip()}")
     except FileNotFoundError:
         print("To-Do List is empty.")

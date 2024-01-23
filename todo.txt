@@ -1,1 +1,2 @@
-run
+run 10k
+codsoft
